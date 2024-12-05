@@ -1,0 +1,546 @@
+[
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 1,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0022256333333333287,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 126976
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 1,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0005743333333333064,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 1,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0007365666666666234,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 1,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.00020206666666663006,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 1,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0006494000000000592,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 1,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0004675333333333069,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 1,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0005981333333333246,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 1,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0007720999999999792,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 4,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.000870866666666655,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 4,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0005494666666667017,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 4,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0005471666666666541,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 4,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0006005666666666724,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 4,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0023114000000000003,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 4,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.001992066666666662,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 217088
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 4,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.002386666666666648,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 64,
+      "batch_size": 4,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0019909333333333703,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 1,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.00024456666666664945,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 1,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0005484000000000044,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 1,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.00047920000000005,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 1,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.00026829999999996207,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 1,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0005577333333333471,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 1,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.000691033333333313,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 450560
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 1,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0006261666666666684,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 454656
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 1,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0006336000000000119,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 454656
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 4,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.000734866666666667,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 516096
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 4,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0011213333333333446,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 380928
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 4,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0007374333333333519,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 385024
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 4,
+      "seq_len": 32,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0008138666666666442,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 385024
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 4,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.002602666666666642,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 516096
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 4,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": true,
+        "cache_aligned": false,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0025987333333333806,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 4,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": true,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.0025204999999999624,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  },
+  {
+    "config": {
+      "dim": 128,
+      "batch_size": 4,
+      "seq_len": 64,
+      "memory_layout": {
+        "contiguous_qkv": false,
+        "row_major": false,
+        "cache_aligned": true,
+        "block_size": 64
+      }
+    },
+    "execution_time": 0.002998833333333321,
+    "l1_hit_rate": 0.5,
+    "l2_hit_rate": 0.0,
+    "memory_usage": 0
+  }
+]
